@@ -1,3 +1,9 @@
+easy-rsa (3.0.1-1) stable; urgency=medium
+
+  * New upstream release
+
+ -- Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>  Fri, 30 Jun 2017 15:50:40 +0200
+
 easy-rsa (2.2.2-2) unstable; urgency=medium
 
   * Update subjectAltName to fix command arguments count.
