@@ -88,7 +88,7 @@ stage_win() {
 
 	for f in `ls $SRC_ROOT/doc/*.md`;
 	do
-		fname=`basename -s .md $f`
+		fname=`basename $f .md`
 		python -m markdown $f > $DIST_ROOT/windows/$PV/doc/$fname.html
 	done
 	
@@ -125,7 +125,7 @@ make_tar() {
 }
 
 make_zip() {
-	(cd "$DIST_ROOT/windows/"; zip -qr "../$BIN_DEST/${PV}.zip" "$PV") || die "zip failed"
+	(cd "$DIST_ROOT/windows/"; zip -qr "../../$BIN_DEST/${PV}.zip" "$PV") || die "zip failed"
 	note "zip file created at: $BIN_DEST/${PV}.zip" 
 }
 
