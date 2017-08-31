@@ -1,11 +1,13 @@
 README.quickstart.md
 KNOWN_ISSUES
+COPYING.md
 ChangeLog
-README
 doc/TODO
 doc/EasyRSA-Upgrade-Notes.md
 doc/EasyRSA-Advanced.md
 doc/Intro-To-PKI.md
 doc/EasyRSA-Readme.md
 doc/Hacking.md
-COPYING
+README.md
+release-keys/README.md
+Licensing/gpl-2.0.txt

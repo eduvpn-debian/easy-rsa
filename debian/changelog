@@ -1,6 +1,7 @@
 easy-rsa (3.0.3-1) stable; urgency=medium
 
   * New upstream version 3.0.3
+  * fix docs installation
 
  -- Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>  Thu, 31 Aug 2017 12:17:58 +0200
 
