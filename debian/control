@@ -1,9 +1,9 @@
 Source: easy-rsa
 Section: utils
 Priority: extra
-Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
+Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.8
 Homepage: https://community.openvpn.net/openvpn
 
 Package: easy-rsa
